@@ -2,19 +2,19 @@
 import sys
 
 
-def print_lines_with_number(input_stream):
+def nl(input_stream):
     for i, line in enumerate(input_stream, start=1):
         print(f"{i}\t{line}", end='')
 
 
 def main():
     if len(sys.argv) == 1:
-        print_lines_with_number(sys.stdin)
+        nl(sys.stdin)
     elif len(sys.argv) == 2:
         file_path = sys.argv[1]
         try:
             with open(file_path, 'r') as file:
-                print_lines_with_number(file)
+                nl(file)
         except FileNotFoundError:
             print(f"task1: {file_path}: No such file or directory")
 
