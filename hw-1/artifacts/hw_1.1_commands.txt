@@ -1,4 +1,4 @@
-<< python3 hw_1.1.py ../artifacts/hw_1.1_text.txt
+<< python3 hw_1.1.py ../artifacts/hw_1_text.txt
 >> 1       ldajslkdm
 >> 2       jdsap
 >> 3

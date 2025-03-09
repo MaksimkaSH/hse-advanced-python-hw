@@ -1,0 +1,35 @@
+<< python3 hw_1.2.py ../artifacts/hw_1.1_text.txt
+>>
+>> fasojfoasj
+>>
+>> 123
+>> cm
+>>
+>>
+>>
+>>
+>> ijp
+
+
+<< python3 hw_1.2.py ../artifacts/hw_1.1_text.txt ../artifacts/empty_file.txt
+>> ==> ../artifacts/hw_1_text.txt <==
+>>
+>> fasojfoasj
+>>
+>> 123
+>> cm
+>>
+>>
+>>
+>>
+>> ijp
+>>
+>> ==> ../artifacts/empty_file.txt <==
+
+<< python3 hw_1.2.py
+<< a
+<< b
+<< c
+>> a
+>> b
+>> c
