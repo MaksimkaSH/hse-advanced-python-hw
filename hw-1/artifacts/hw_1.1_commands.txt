@@ -1,0 +1,30 @@
+<< python3 hw_1.1.py ../artifacts/hw_1_text.txt
+>> 1       ldajslkdm
+>> 2       jdsap
+>> 3
+>> 4       fasojfoasj
+>> 5
+>> 6       123
+>> 7       cm
+>> 8
+>> 9
+>> 10
+>> 11
+>> 12      ijp
+
+
+<< python3 hw_1.1.py
+<< jnono
+>> 1       jnono
+<< sodjfo
+>> 2       sodjfo
+<< odjfos
+>> 3       odjfos
+<< donco
+>> 4       donco
+<<
+>> 5
+<<
+>> 6
+<< fslij
+>> 7       fslij
