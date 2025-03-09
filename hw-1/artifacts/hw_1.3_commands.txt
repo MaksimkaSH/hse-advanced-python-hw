@@ -1,0 +1,11 @@
+<< python3 hw_1.3.py ../artifacts/hw_1_text.txt ../artifacts/empty_file.txt
+>>       12        6      44 ../artifacts/hw_1_text.txt
+>>        0        0       0 ../artifacts/empty_file.txt
+>>       12        6      44 total
+
+<< python3 hw_1.3.py
+<< 1
+<< 2
+<< 3
+>>        3        3       6
+
