@@ -1,0 +1,2 @@
+setuptools>=76.0.0
+hse_advanced_python_hw2_maksimkaSh>=0.0.1
