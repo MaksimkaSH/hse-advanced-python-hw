@@ -1,3 +1,5 @@
+import os
+
 from utils import (generate_latex_table, generate_latex_image)
 
 
@@ -17,7 +19,7 @@ def generate_latex():
 
     # task_2
     image = generate_latex_image(
-        image_path="hw-2/artifacts/2024-08-08 13.03.49.jpg",
+        image_path="img/2024-08-08 13.03.49.jpg",
         height="200px",
         centering=True
     )
@@ -32,7 +34,7 @@ def generate_latex():
             + image
             + "\n\\end{document}"
     )
-    with open("temp/res.tex", "w", encoding="utf-8") as f:
+    with open("res.tex", "w", encoding="utf-8") as f:
         f.write(result)
 
 if __name__ == "__main__":
