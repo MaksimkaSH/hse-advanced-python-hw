@@ -9,6 +9,11 @@ class MatrixHashMixin:
         # Сумма элементов, умноженная на количество строк
         return sum(sum(row) for row in self.data) * self.rows
 
+    def __eq__(self, other) -> bool:
+        if not isinstance(other, Matrix):
+            return False
+        return self.data == other.data
+
 
 class Matrix(MatrixHashMixin):
     def __init__(self, data: List[List[Union[int, float]]]):
@@ -23,13 +28,7 @@ class Matrix(MatrixHashMixin):
         self.data = data
         self._cached_mul = {}
 
-    def __eq__(self, other) -> bool:
-        if not isinstance(other, Matrix):
-            return False
-        return self.data == other.data
 
-    def __hash__(self) -> int:
-        return super().__hash__()
 
     def _check_dimensions(self, first, second):
         if self.rows != first or self.cols != second:
